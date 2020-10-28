@@ -1,25 +1,17 @@
 {
   "name": "my-first-aws",
-  "version": "1.0.0",
-  "description": "my first node aith aws",
-  "main": "app.js",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.6"
-  },
-  "devDependencies": {},
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anwesha2345/my-first-aws.git"
-  },
-  "author": "anwesha chakraborty",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anwesha2345/my-first-aws/issues"
-  },
-  "homepage": "https://github.com/anwesha2345/my-first-aws#readme"
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
 }
